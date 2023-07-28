@@ -11,6 +11,7 @@ import Orders from '../Pages/Dashboard/Orders/Orders';
 import ProductList from '../Pages/Dashboard/ProductList/ProductList';
 import MyCart from '../Pages/MyCart/MyCart';
 import Checkout from '../Pages/Checkout/Checkout';
+import AddItem from '../Pages/Dashboard/AddItem/AddItem';
 
 export const router = createBrowserRouter([
 	{
@@ -65,6 +66,10 @@ export const router = createBrowserRouter([
 			{
 				path: 'productList',
 				element: <ProductList></ProductList>,
+			},
+			{
+				path: 'additem',
+				element: <AddItem></AddItem>,
 			},
 		],
 	},

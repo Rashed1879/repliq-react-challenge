@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react';
-import { FaEdit } from 'react-icons/fa';
+import { MdAdd } from 'react-icons/md';
+import { FcViewDetails } from 'react-icons/fc';
+import { Link } from 'react-router-dom';
 
 const ProductList = () => {
 	const [products, setProducts] = useState([]);
 
 	useEffect(() => {
-		fetch('/public/products.json')
+		fetch('http://localhost:9000/products')
 			.then((res) => res.json())
 			.then((data) => setProducts(data));
 	}, []);
@@ -48,15 +50,25 @@ const ProductList = () => {
 								</td>
 								<td>${product.price}</td>
 								<td>{product.rating}</td>
-								<th>
-									<button className="btn btn-sm mr-2">
-										<FaEdit />
-									</button>
+								<th title="View Details">
+									<Link to={`/productDetail/${product.id}`}>
+										<button className="btn btn-sm">
+											<FcViewDetails />
+										</button>
+									</Link>
 								</th>
 							</tr>
 						))}
 					</tbody>
 				</table>
+				<div className="flex justify-end my-5">
+					<Link to={'/dashboard/additem'}>
+						<button className="btn btn-sm btn-outline">
+							Add Item
+							<MdAdd />
+						</button>
+					</Link>
+				</div>
 			</div>
 		</div>
 	);

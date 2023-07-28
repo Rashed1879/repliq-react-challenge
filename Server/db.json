@@ -133,6 +133,22 @@
       "price": 899.99,
       "rating": 4.7,
       "description": "Powerful and lightweight laptop for all your needs."
+    },
+    {
+      "name": "Wireless Earbuds",
+      "image": "https://images.pexels.com/photos/8534088/pexels-photo-8534088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": "78",
+      "rating": "4",
+      "description": "High-quality wireless earbuds with crystal-clear sound.",
+      "id": 7
+    },
+    {
+      "name": "Wireless Mouse",
+      "image": "https://images.pexels.com/photos/13599845/pexels-photo-13599845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": "29.99",
+      "rating": "4.5",
+      "description": "Ergonomic wireless mouse for enhanced productivity.",
+      "id": 8
     }
   ],
   "cart": [
