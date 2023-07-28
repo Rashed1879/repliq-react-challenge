@@ -62,7 +62,7 @@ const MyCart = () => {
 				</table>
 			</div>
 			<div className="flex justify-end mx-10 mb-5">
-				<Link>
+				<Link to={'/checkout'}>
 					<button className="btn btn-outline">Checkout</button>
 				</Link>
 			</div>
