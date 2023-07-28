@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
-import { HiShoppingCart } from 'react-icons/hi';
+import { BiRightArrowCircle } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 
 const Products = () => {
 	const [products, setProducts] = useState([]);
 
 	useEffect(() => {
-		fetch('products.json')
+		fetch('http://localhost:9000/products')
 			.then((res) => res.json())
 			.then((data) => setProducts(data));
 	}, []);
@@ -42,10 +42,10 @@ const Products = () => {
 								<div className="badge badge-outline">
 									{product.rating}
 								</div>
-								<Link to="/productDetail">
+								<Link to={`/productDetail/${product.id}`}>
 									<button className="btn btn-outline btn-sm">
-										<p>Add To Cart</p>
-										<HiShoppingCart></HiShoppingCart>
+										<p>View Details</p>
+										<BiRightArrowCircle />
 									</button>
 								</Link>
 							</div>

@@ -1,4 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
+import { HiOutlineShoppingCart } from 'react-icons/hi';
 
 const Navbar = () => {
 	return (
@@ -79,6 +80,9 @@ const Navbar = () => {
 				</ul>
 			</div>
 			<div className="navbar-end space-x-4">
+				<Link to={'/myCart'} className="flex items-center gap-2">
+					<p>My Cart</p> <HiOutlineShoppingCart />
+				</Link>
 				<Link to="/login">Sign In</Link>
 				<Link to="/register">Sign Up</Link>
 			</div>

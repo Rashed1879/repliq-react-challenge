@@ -1,6 +1,34 @@
 import { Link } from 'react-router-dom';
 
 const Register = () => {
+	const handleRegister = (e) => {
+		e.preventDefault();
+		const form = e.target;
+		const name = form.name.value;
+		const email = form.email.value;
+		const password = form.password.value;
+		const data = { name, email, password };
+
+		console.log(data);
+
+		fetch('http://localhost:9000/register', {
+			method: 'POST',
+			headers: {
+				'content-type': 'application/json',
+				Accept: 'application/json',
+			},
+			body: JSON.stringify(data),
+		})
+			.then((res) => res.json())
+			.then((data) => {
+				console.log(data.accessToken);
+				alert('Registration Successfull');
+			})
+			.catch((err) => {
+				alert(`Failed : ${err.message}`);
+			});
+	};
+
 	return (
 		<div className="bg-base-200">
 			<h2 className="text-center py-5 text-5xl font-bold text-neutral-focus">
@@ -8,7 +36,7 @@ const Register = () => {
 			</h2>
 			<div className="flex items-center">
 				<div className="card w-full md:w-96 mx-auto mb-8 shadow-2xl bg-base-100">
-					<form className="card-body">
+					<form className="card-body" onSubmit={handleRegister}>
 						<div className="form-control">
 							<label className="label">
 								<span className="label-text">Name</span>
@@ -26,7 +54,7 @@ const Register = () => {
 							</label>
 							<input
 								type="email"
-								placeholder="email"
+								placeholder="Enter Your Email"
 								name="email"
 								className="input input-bordered"
 								required
