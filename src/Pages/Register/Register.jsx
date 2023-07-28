@@ -1,6 +1,7 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Register = () => {
+	const navigate = useNavigate();
 	const handleRegister = (e) => {
 		e.preventDefault();
 		const form = e.target;
@@ -8,8 +9,6 @@ const Register = () => {
 		const email = form.email.value;
 		const password = form.password.value;
 		const data = { name, email, password };
-
-		console.log(data);
 
 		fetch('http://localhost:9000/register', {
 			method: 'POST',
@@ -23,6 +22,7 @@ const Register = () => {
 			.then((data) => {
 				console.log(data.accessToken);
 				alert('Registration Successfull');
+				navigate('/login');
 			})
 			.catch((err) => {
 				alert(`Failed : ${err.message}`);
@@ -46,6 +46,7 @@ const Register = () => {
 								name="name"
 								placeholder="Your Name"
 								className="input input-bordered"
+								required
 							/>
 						</div>
 						<div className="form-control">

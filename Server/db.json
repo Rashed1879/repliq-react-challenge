@@ -1,172 +1,172 @@
 {
-  "users": [
-    {
-      "email": "test1@gmail.com",
-      "password": "$2a$10$7s7U22bCXtQRLegvrni/3eIIbQ8oa1tomHNINr9Ik5UxrCs4SRfMa",
-      "name": "Test 1",
-      "id": 2
-    },
-    {
-      "email": "test2@gmail.com",
-      "password": "$2a$10$9Q.gd5.mHiujXvE1SQLH9uj1Hs30ioAAggiKC0z.EPUchErtAGlaq",
-      "name": "Test 2",
-      "id": 3
-    },
-    {
-      "email": "test3@gmail.com",
-      "password": "$2a$10$xmFVCf4PL3w7VstVJE0ENePrqCtL9w4bghTwsQedl2KIkTE9LRPCe",
-      "name": "Test 3",
-      "id": 4
-    },
-    {
-      "email": "test4@gmail.com",
-      "password": "$2a$10$Z/P1eNidxhopYShdDsDQ1eR70P6GJkhfrmCYE1XYnwknFhfJidebi",
-      "name": "Test 4",
-      "id": 5
-    },
-    {
-      "email": "test@gmail.com",
-      "password": "$2a$10$GxWBO1z.LUYzPfkRUzcLhuW25qKk/YLZnhMyZAaNufas3dt1fNngS",
-      "name": "Test 5",
-      "id": 6
-    },
-    {
-      "email": "test6@gmail.com",
-      "password": "$2a$10$N9DSa0vecAR0idACWc/oXuI8MGY5wtr4/dYn9167/mqqwbGqcUj0G",
-      "name": "Test 6",
-      "id": 7
-    },
-    {
-      "email": "test7@gmail.com",
-      "password": "$2a$10$vF11Tlzx736YeHqipunMie9/f9ZosfGMFXDpBFgXOXSa7HzEw5vh6",
-      "name": "Test 7",
-      "id": 8
-    },
-    {
-      "email": "test8@gmail.com",
-      "password": "$2a$10$X3l8IqaVmBjofMLMmNhs9OISaEe9.CZmIr..WPjIANoX3kP5A34y2",
-      "name": "Test 8",
-      "id": 9
-    },
-    {
-      "email": "test9@gmail.com",
-      "password": "$2a$10$9eWF4cztyEj.3qXBst7Po.2dWlJ4qC0W2pa//pkmeggXd8sPFo2Xu",
-      "name": "Test 9",
-      "id": 10
-    },
-    {
-      "email": "test10@gmail.com",
-      "password": "$2a$10$Sg3i8yjTJ.0OE/IrMIJ9OOXxN.HHKu72bWoavwT534z8SKJbdejXK",
-      "name": "Test 10",
-      "id": 11
-    },
-    {
-      "email": "test11@gmail.com",
-      "password": "$2a$10$oNcCH7dwP02xIRMTSwC.zeH63yqWiTDNf.tSOUbXfbW7.eXJn/kbK",
-      "name": "Test 11",
-      "id": 12
-    },
-    {
-      "email": "test12@gmail.com",
-      "password": "$2a$10$CJJvl3d1oJEFiEyAagrGq.h7xVrgHiAJ16daJoAGFOPto6Hph3cvi",
-      "name": "Test 12",
-      "id": 13
-    },
-    {
-      "email": "carol@info.com",
-      "password": "$2a$10$hbINOSu.RQ/JdRu9QqsLI.2/Uf/CFmBiBKcw78MxbpqbKvWbKapn6",
-      "name": "Carol",
-      "id": 14
-    },
-    {
-      "email": "sofia@info.com",
-      "password": "$2a$10$S/cX6Cp07EysQiTpu.li7.JW9IXSLRmt1VRi7F/BubH4RaGMzkHSi",
-      "name": "Sofia",
-      "id": 15
-    }
-  ],
-  "products": [
-    {
-      "id": 1,
-      "name": "Mobile Phone",
-      "image": "https://images.pexels.com/photos/2643698/pexels-photo-2643698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "price": 499.99,
-      "rating": 4.5,
-      "description": "A powerful smartphone with great features."
-    },
-    {
-      "id": 2,
-      "name": "Wireless Headphones",
-      "image": "https://images.pexels.com/photos/815494/pexels-photo-815494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "price": 129.99,
-      "rating": 4.8,
-      "description": "Comfortable and high-quality wireless headphones."
-    },
-    {
-      "id": 3,
-      "name": "Smartwatch",
-      "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "price": 299.99,
-      "rating": 4.2,
-      "description": "Fitness-oriented smartwatch with multiple functions."
-    },
-    {
-      "id": 4,
-      "name": "Portable Bluetooth Speaker",
-      "image": "https://images.pexels.com/photos/11103381/pexels-photo-11103381.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": 89.99,
-      "rating": 4.6,
-      "description": "Compact and portable Bluetooth speaker."
-    },
-    {
-      "id": 5,
-      "name": "Phone Case",
-      "image": "https://images.pexels.com/photos/1670768/pexels-photo-1670768.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": 19.99,
-      "rating": 4.4,
-      "description": "Durable and protective phone case for your device."
-    },
-    {
-      "id": 6,
-      "name": "Laptop",
-      "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "price": 899.99,
-      "rating": 4.7,
-      "description": "Powerful and lightweight laptop for all your needs."
-    },
-    {
-      "name": "Wireless Earbuds",
-      "image": "https://images.pexels.com/photos/8534088/pexels-photo-8534088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "price": "78",
-      "rating": "4",
-      "description": "High-quality wireless earbuds with crystal-clear sound.",
-      "id": 7
-    },
-    {
-      "name": "Wireless Mouse",
-      "image": "https://images.pexels.com/photos/13599845/pexels-photo-13599845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "price": "29.99",
-      "rating": "4.5",
-      "description": "Ergonomic wireless mouse for enhanced productivity.",
-      "id": 8
-    }
-  ],
-  "cart": [
-    {
-      "id": 4,
-      "name": "Portable Bluetooth Speaker",
-      "image": "https://images.pexels.com/photos/11103381/pexels-photo-11103381.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": 89.99,
-      "rating": 4.6,
-      "description": "Compact and portable Bluetooth speaker."
-    },
-    {
-      "id": 5,
-      "name": "Phone Case",
-      "image": "https://images.pexels.com/photos/1670768/pexels-photo-1670768.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": 19.99,
-      "rating": 4.4,
-      "description": "Durable and protective phone case for your device."
-    }
-  ]
+	"users": [
+		{
+			"email": "test1@gmail.com",
+			"password": "$2a$10$7s7U22bCXtQRLegvrni/3eIIbQ8oa1tomHNINr9Ik5UxrCs4SRfMa",
+			"name": "Test 1",
+			"id": 2
+		},
+		{
+			"email": "test2@gmail.com",
+			"password": "$2a$10$9Q.gd5.mHiujXvE1SQLH9uj1Hs30ioAAggiKC0z.EPUchErtAGlaq",
+			"name": "Test 2",
+			"id": 3
+		},
+		{
+			"email": "test3@gmail.com",
+			"password": "$2a$10$xmFVCf4PL3w7VstVJE0ENePrqCtL9w4bghTwsQedl2KIkTE9LRPCe",
+			"name": "Test 3",
+			"id": 4
+		},
+		{
+			"email": "test4@gmail.com",
+			"password": "$2a$10$Z/P1eNidxhopYShdDsDQ1eR70P6GJkhfrmCYE1XYnwknFhfJidebi",
+			"name": "Test 4",
+			"id": 5
+		},
+		{
+			"email": "test@gmail.com",
+			"password": "$2a$10$GxWBO1z.LUYzPfkRUzcLhuW25qKk/YLZnhMyZAaNufas3dt1fNngS",
+			"name": "Test 5",
+			"id": 6
+		},
+		{
+			"email": "test6@gmail.com",
+			"password": "$2a$10$N9DSa0vecAR0idACWc/oXuI8MGY5wtr4/dYn9167/mqqwbGqcUj0G",
+			"name": "Test 6",
+			"id": 7
+		},
+		{
+			"email": "test7@gmail.com",
+			"password": "$2a$10$vF11Tlzx736YeHqipunMie9/f9ZosfGMFXDpBFgXOXSa7HzEw5vh6",
+			"name": "Test 7",
+			"id": 8
+		},
+		{
+			"email": "test8@gmail.com",
+			"password": "$2a$10$X3l8IqaVmBjofMLMmNhs9OISaEe9.CZmIr..WPjIANoX3kP5A34y2",
+			"name": "Test 8",
+			"id": 9
+		},
+		{
+			"email": "test9@gmail.com",
+			"password": "$2a$10$9eWF4cztyEj.3qXBst7Po.2dWlJ4qC0W2pa//pkmeggXd8sPFo2Xu",
+			"name": "Test 9",
+			"id": 10
+		},
+		{
+			"email": "test10@gmail.com",
+			"password": "$2a$10$Sg3i8yjTJ.0OE/IrMIJ9OOXxN.HHKu72bWoavwT534z8SKJbdejXK",
+			"name": "Test 10",
+			"id": 11
+		},
+		{
+			"email": "test11@gmail.com",
+			"password": "$2a$10$oNcCH7dwP02xIRMTSwC.zeH63yqWiTDNf.tSOUbXfbW7.eXJn/kbK",
+			"name": "Test 11",
+			"id": 12
+		},
+		{
+			"email": "test12@gmail.com",
+			"password": "$2a$10$CJJvl3d1oJEFiEyAagrGq.h7xVrgHiAJ16daJoAGFOPto6Hph3cvi",
+			"name": "Test 12",
+			"id": 13
+		},
+		{
+			"email": "carol@info.com",
+			"password": "$2a$10$hbINOSu.RQ/JdRu9QqsLI.2/Uf/CFmBiBKcw78MxbpqbKvWbKapn6",
+			"name": "Carol",
+			"id": 14
+		},
+		{
+			"email": "sofia@info.com",
+			"password": "$2a$10$S/cX6Cp07EysQiTpu.li7.JW9IXSLRmt1VRi7F/BubH4RaGMzkHSi",
+			"name": "Sofia",
+			"id": 15
+		}
+	],
+	"products": [
+		{
+			"id": 1,
+			"name": "Mobile Phone",
+			"image": "https://images.pexels.com/photos/2643698/pexels-photo-2643698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"price": 499.99,
+			"rating": 4.5,
+			"description": "A powerful smartphone with great features."
+		},
+		{
+			"id": 2,
+			"name": "Wireless Headphones",
+			"image": "https://images.pexels.com/photos/815494/pexels-photo-815494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"price": 129.99,
+			"rating": 4.8,
+			"description": "Comfortable and high-quality wireless headphones."
+		},
+		{
+			"id": 3,
+			"name": "Smartwatch",
+			"image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"price": 299.99,
+			"rating": 4.2,
+			"description": "Fitness-oriented smartwatch with multiple functions."
+		},
+		{
+			"id": 4,
+			"name": "Portable Bluetooth Speaker",
+			"image": "https://images.pexels.com/photos/11103381/pexels-photo-11103381.jpeg?auto=compress&cs=tinysrgb&w=600",
+			"price": 89.99,
+			"rating": 4.6,
+			"description": "Compact and portable Bluetooth speaker."
+		},
+		{
+			"id": 5,
+			"name": "Phone Case",
+			"image": "https://images.pexels.com/photos/1670768/pexels-photo-1670768.jpeg?auto=compress&cs=tinysrgb&w=600",
+			"price": 19.99,
+			"rating": 4.4,
+			"description": "Durable and protective phone case for your device."
+		},
+		{
+			"id": 6,
+			"name": "Laptop",
+			"image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"price": 899.99,
+			"rating": 4.7,
+			"description": "Powerful and lightweight laptop for all your needs."
+		},
+		{
+			"name": "Wireless Earbuds",
+			"image": "https://images.pexels.com/photos/8534088/pexels-photo-8534088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"price": "78",
+			"rating": "4",
+			"description": "High-quality wireless earbuds with crystal-clear sound.",
+			"id": 7
+		},
+		{
+			"name": "Wireless Mouse",
+			"image": "https://images.pexels.com/photos/13599845/pexels-photo-13599845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"price": "29.99",
+			"rating": "4.5",
+			"description": "Ergonomic wireless mouse for enhanced productivity.",
+			"id": 8
+		}
+	],
+	"cart": [
+		{
+			"id": 4,
+			"name": "Portable Bluetooth Speaker",
+			"image": "https://images.pexels.com/photos/11103381/pexels-photo-11103381.jpeg?auto=compress&cs=tinysrgb&w=600",
+			"price": 89.99,
+			"rating": 4.6,
+			"description": "Compact and portable Bluetooth speaker."
+		},
+		{
+			"id": 5,
+			"name": "Phone Case",
+			"image": "https://images.pexels.com/photos/1670768/pexels-photo-1670768.jpeg?auto=compress&cs=tinysrgb&w=600",
+			"price": 19.99,
+			"rating": 4.4,
+			"description": "Durable and protective phone case for your device."
+		}
+	]
 }
